@@ -1,0 +1,46 @@
+ <!DOCTYPE>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Authentication Page</title>
+  <link rel="stylesheet" href="./loginpage/loginstyles.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Fresca&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <section>
+    <div id="CheckBox">
+
+      <h1 class="heading">Authentication : </h1>
+      <div class="heading">
+
+        <form action="#" method="post" name="authentication" id="authentication" class="authentication">
+          <label class="heading highpadding" for="username">Enter your username :</label>
+          <br>
+          <input type="text" name="username" id="username" minlength="3" maxlenth="15" pattern="[a-zA-Z0-9]+" required>
+          <br>
+          <label for="password" class="heading highpadding">Enter your password :</label>
+          <br>
+          <input type="password" name="password" id="password" minlength="8" maxlength="15" pattern="[a-zA-Z0-9]+"
+            required>
+          <br>
+          <input class="button" id="sub" type="submit" value="Submit" onclick="Verify();"></input>
+          <button class="button" id="rule" type="button" onclick="Show('rules');">Rules</button>
+        </form>
+        <div id="rules">
+          <ul>
+            <li>Username must have between 3 and 15 caracters</li>
+            <li>Password must have between 8 and 15 caracters</li>
+            <li>Username and Password required</li>
+            <li>Use only numbers and letters</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="./loginpage/loginscript.js"></script>
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html> 
