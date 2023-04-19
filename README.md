@@ -1,7 +1,10 @@
 # watch-hit
 
 project for mpgi hackks 2023
-web-application :
+web-application : https://fullstack.vishesh-hue.repl.co/
+
+..
+
 power-point :
 
 salients features//
