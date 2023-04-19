@@ -5,7 +5,7 @@ web-application : https://fullstack.vishesh-hue.repl.co/
 
 ..
 
-power-point :
+
 
 salients features//
 
