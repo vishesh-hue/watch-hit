@@ -18,4 +18,6 @@ salients features//
 
 6 user interaction 
 
+7 user authentication
+
 //
